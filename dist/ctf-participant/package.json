@@ -1,0 +1,15 @@
+{
+  "name": "butler-ctf-participant",
+  "version": "1.0.0",
+  "description": "Participant bundle for Butler CTF challenge",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.26.3"
+  }
+}

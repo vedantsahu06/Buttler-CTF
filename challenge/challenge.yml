@@ -1,0 +1,10 @@
+name: "Butler Hard Challenge"
+category: "Web3"
+description: "Drain all liquidity from the Butler DEX using advanced smart contract exploits."
+points: 500
+flags:
+  format: "flag{{{attacker_address}}}"
+type: "dynamic"
+files:
+  - "contracts/*.sol"
+  - "scripts/deploy.js"
